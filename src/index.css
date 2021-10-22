@@ -4,9 +4,13 @@
 
 
 .calc-button {
-    @apply flex-auto bg-gray-500 bg-opacity-10 rounded-md shadow-sm h-10 hover:shadow-md m-1 transition-all font-mono;
+    @apply flex-auto bg-gray-200 text-white bg-opacity-10 rounded-md shadow-sm h-10 hover:shadow-md m-1 transition-all font-mono;
 }
 
 .calc-button-lg {
-    flex-grow: 2;
+    flex-grow: 2.3;
+}
+
+.op-btn {
+    @apply bg-yellow-500 text-black;
 }
