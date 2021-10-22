@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom'
 import Calculator from "./Calculator"
 import "./index.css"

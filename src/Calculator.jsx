@@ -3,13 +3,13 @@ import React from "react"
 function Calculator() {
     let number = 0
     return (
-        <div className="container flex flex-auto justify-center">
-            <div className="bg-red-200 p-5">
-                <input readOnly disabled className="border-0 bg-blue-400 rounded-md text-right p-2 font-mono text-xl m-1" value={number} />
+        <div className="container flex flex-auto justify-center m-auto">
+            <div className="bg-red-300 p-5 rounded-xl">
+                <input readOnly disabled className="border-0 bg-transparent text-black text-right p-2 font-mono text-xl m-1" value={number} />
                 <div className="container">
                     <div className="flex p-1">
                         <button className="calc-button">c</button>
-                        <button className="calc-button">+/-</button>
+                        <button className="calc-button">±</button>
                         <button className="calc-button">%</button>
                         <button className="calc-button">÷</button>
                     </div>
