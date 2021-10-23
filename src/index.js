@@ -6,8 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./index.css"
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Route path="/" exact component={Calculator} />
-  </BrowserRouter>,
+  <Calculator />,
   document.getElementById('container')
 );

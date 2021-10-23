@@ -133,8 +133,8 @@ function Calculator() {
 
 
     return (
-        <div className="container flex flex-auto justify-center m-auto">
-            <div className="dark:bg-gray-900 bg-gray-200 p-5 rounded-3xl">
+        <div className="container flex flex-auto justify-center items-center m-auto h-screen">
+            <div className="dark:bg-gray-900 bg-gray-200 p-5 rounded-3xl transform scale-150">
                 <span className="border-0 w-64 block bg-transparent dark:text-white text-black text-right p-2 font-mono text-2xl m-1">{number}</span>
                 <div className="container p-0">
                     <div className="flex p-1">
