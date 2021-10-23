@@ -4,7 +4,7 @@
 
 
 .calc-button {
-    @apply flex-auto bg-gray-200 text-white bg-opacity-10 rounded-md shadow-sm h-10 hover:shadow-md m-1 transition-all font-mono;
+    @apply flex-auto bg-gray-50 text-white bg-opacity-10 rounded-xl shadow-sm h-10 hover:shadow-md m-1 transition-colors font-mono outline-none;
 }
 
 .calc-button-lg {
@@ -12,5 +12,17 @@
 }
 
 .op-btn {
-    @apply bg-yellow-500 text-black;
+    @apply bg-yellow-500 text-black hover:bg-opacity-75 text-xl;
+}
+
+.op-btn.active {
+    @apply bg-yellow-100;
+}
+
+.num-btn {
+    @apply focus:bg-gray-400 focus:outline-none focus:text-black border-0 hover:text-black hover:bg-gray-300;
+}
+
+.ctrl-btn {
+    @apply bg-gray-400 text-black hover:bg-gray-200;
 }
