@@ -23,7 +23,8 @@
     "predeploy": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "craco build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +49,6 @@
     "gh-pages": "^3.2.3",
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
-  }
+  },
+  "homepage": "https://snek152.github.io/react-calculator"
 }
