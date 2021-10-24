@@ -7,9 +7,9 @@ import "./index.css"
 import Scientific from './Scientific'
 
 ReactDOM.render(
-  <HashRouter>
-    <Route exact path={"#/" + process.env.PUBLIC_URL + "/"} component={Calculator} />
-    <Route path={"#/" + process.env.PUBLIC_URL + "/calculator"} component={Scientific} />
+  <HashRouter basename="/">
+    <Route exact path="/" component={Calculator} />
+    <Route path="/scientific" component={Scientific} />
   </HashRouter>,
   document.getElementById('container')
 )
