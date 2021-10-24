@@ -4,12 +4,13 @@ import ReactDOM from 'react-dom'
 import Calculator from "./Calculator"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./index.css"
-import Scientific from './Scientific';
+import { HashRouter } from 'react-router-dom';
+import Scientific from './Scientific'
 
 ReactDOM.render(
-  <BrowserRouter history={window.history}>
+  <HashRouter>
     <Route exact path="/react-calculator/" component={Calculator} />
     <Route path="/react-calculator/scientific" component={Scientific} />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('container')
 )
