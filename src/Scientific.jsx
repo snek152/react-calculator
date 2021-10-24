@@ -4,7 +4,7 @@ import copy from "copy-to-clipboard"
 import { Tooltip } from "bootstrap"
 import { Link } from "react-router-dom"
 
-function Calculator() {
+function Scientific() {
     const [number, setCount] = useState("0")
     const negate = () => {
         if (number.includes("-")) {
@@ -157,8 +157,6 @@ function Calculator() {
 
         toggleSwitch.addEventListener('change', switchTheme, false);
     })
-
-
     return (
         <div className="container flex flex-auto justify-center items-center m-auto h-screen">
             <div className="dark:bg-gray-900 bg-gray-200 p-5 rounded-3xl">
@@ -194,7 +192,7 @@ function Calculator() {
                         <button className="calc-button op-btn" onClick={() => calculateNum(currentOp)}>=</button>
                     </div>
                     <div className="container flex justify-center gap-4">
-                        <Link to="/react-calculator/scientific" className="calc-link">Scientific</Link>
+                        <Link to="/react-calculator/" className="calc-link">Basic</Link>
                         <div className="form-switch form-check">
                             <input className="form-check-input" type="checkbox" role="switch" />
                         </div>
@@ -216,4 +214,4 @@ function Calculator() {
     )
 }
 
-export default Calculator
+export default Scientific
