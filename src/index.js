@@ -7,7 +7,7 @@ import "./index.css"
 import Scientific from './Scientific';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter history={window.history}>
     <Route exact path="/react-calculator/" component={Calculator} />
     <Route path="/react-calculator/scientific" component={Scientific} />
   </BrowserRouter>,
