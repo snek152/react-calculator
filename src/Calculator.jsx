@@ -194,7 +194,7 @@ function Calculator() {
                         <button className="calc-button op-btn" onClick={() => calculateNum(currentOp)}>=</button>
                     </div>
                     <div className="container flex justify-center gap-4">
-                        <Link to="/react-calculator/scientific" className="calc-link">Scientific</Link>
+                        <Link to="/scientific" className="calc-link">Scientific</Link>
                         <div className="form-switch form-check">
                             <input className="form-check-input" type="checkbox" role="switch" />
                         </div>
