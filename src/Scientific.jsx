@@ -159,7 +159,7 @@ function Scientific() {
     })
     return (
         <div className="container flex flex-auto justify-center items-center m-auto h-screen">
-            <div className="dark:bg-gray-900 bg-gray-200 p-5 rounded-3xl">
+            <div className="dark:bg-gray-900 bg-gray-200 p-5 rounded-3xl max-w-full">
                 <span className="border-0 block bg-transparent dark:text-white text-black text-right p-2 font-mono text-2xl m-1" style={{ minWidth: "24rem" }}>{number}</span>
                 <div className="container p-0 flex flex-row-reverse">
                     <div className="container p-0 m-0" style={{ minWidth: "264px" }}>
